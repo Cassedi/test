@@ -57,7 +57,7 @@ a {
     
 }
 
-button {
+.nav_btn {
     width: 196px;
     height: 44px;
     background-color: #8B5CF6;
@@ -86,16 +86,15 @@ button {
 .body__content__desc {
     width: 756px;
     height: 584px;
-    gap: 16px;
-    width: 80%;
+    gap: 16px;    
     margin: 0 auto;
+    margin-top: 30px;    
 }
 
 .body__content__form {
     width: 756px;
     height: 584px;
-    gap: 16px;
-    width: 80%;
+    gap: 16px;    
     margin: 0 auto;
 }
 .body__content__desc__1{
@@ -106,7 +105,7 @@ button {
 .body__content__desc__2{
     margin-top: 20px;
     font-weight: 400;
-    font-style: 20px;
+    font-size: 20px;
 }
 .body__content__desc__3{
     margin-top: 20px;
@@ -114,6 +113,53 @@ button {
     height: 352px;
     width: 756px;
     border-radius: 16px;
+}
+.body__content__form{
+    margin-top: 30px;
+    width: 756px;
+    height: 584px;
+    border-radius: 16px;
+    background-color: #F9FAFB;
+    padding: 24px 27px;
+    text-align: center;   
+}
+.body__content__form__text__calc{    
+    font-weight: 700;
+    font-size: 30px;    
+}
+.body__content__form__text__text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;    
+}
+
+.form {    
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 35px 35px 35px 35px 35px 35px;    
+    width: 496px;
+    height: 408px;
+    grid-gap: 18px;
+    text-align: center;
+
+}
+
+.fio {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.form__btn{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 6;    
+    background-color: #8B5CF6;
+    color: #F9FAFB;
+    border-radius: 4px;     
 
 }
 
