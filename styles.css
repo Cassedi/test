@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+}
+
+/*HEADER*/
+.header {
+    display: flex;    
+    justify-content: space-around;
+    margin-top: 30px;
+    height: 76px;
+    width: 1536px;
+}
+
+.header__inner {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+       
+}
+
+.header__inner__delivery {    
+    border-right: 1px solid;    
+}
+.header__inner__delivery > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.header__inner__contacts__phone{
+    height: 40px;
+    width: 341px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+/*Navigation*/
+
+.navigation {
+    display: flex;
+    width: 1536px;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    color: #333;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 20px;
+      
+    
+}
+
+button {
+    width: 196px;
+    height: 44px;
+    background-color: #8B5CF6;
+    color: #F9FAFB;
+    border-radius: 4px;    
+}
+
+/*BODY*/
+.body {    
+    width: 1920px;
+    height: 3537px;
+    background-color: #E5E7EB;        
+    gap: 52px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.body__content {
+    display: flex;    
+    justify-content: space-between;
+    width: 1536px;
+    height: 2967px;
+    gap: 72px;
+}
+
+.body__content__desc {
+    width: 756px;
+    height: 584px;
+    gap: 16px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.body__content__form {
+    width: 756px;
+    height: 584px;
+    gap: 16px;
+    width: 80%;
+    margin: 0 auto;
+}
+.body__content__desc__1{
+    font-size: 36px;
+    font-weight: 900;
+
+}
+.body__content__desc__2{
+    margin-top: 20px;
+    font-weight: 400;
+    font-style: 20px;
+}
+.body__content__desc__3{
+    margin-top: 20px;
+    content: url(https://s3-alpha-sig.figma.com/img/7a03/3eb5/36b79a868ca1af76a654b33ac20df44f?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MljjssuMSRsUyP4zQVqDtOxtdts8Elsz7XCub2DImNg8G5k4ebifuA9Fbz0CezTOqKeem98hQyvRxAdYjMdlHAPjcBUbmTqdLpZ2YdBwbv5k7BrQbKy66RrXlC1veJJJfZ9dA4Sp60h0zcy9tDfUKGZcny8YUJc6F-r99uyCRfsRpXOVd-SijQHxCPXq4H1GcvcY~2VY9Di3ahs41NDTr~Bbyz8ROkcHEc1Q-qzXRO0nGiL~GrzKeovJPNvhs74Guuw3ZsXl77paUKRlpUX6QX9FDD2GGX3YDuG8qT4WjGTOdpKcYTQO0045BLwadm6umCUCKUFHUdwEZQFk-4U6Cg__);
+    height: 352px;
+    width: 756px;
+    border-radius: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
